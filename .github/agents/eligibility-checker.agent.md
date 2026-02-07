@@ -61,7 +61,10 @@ tools: ["readFile", "textSearch"]
 ## References
 
 - [IT導入補助金 対象者要件](../instructions/subsidy/it-hojo/eligibility.instructions.md)
-- [補助金ナレッジ概要](../instructions/subsidy/_overview.instructions.md)
+- [ものづくり補助金](../instructions/subsidy/other-subsidies/monodukuri.instructions.md)
+- [小規模事業者持続化補助金](../instructions/subsidy/other-subsidies/jizokuka.instructions.md)
+- [省力化投資補助金](../instructions/subsidy/other-subsidies/shoryokuka.instructions.md)
+- [事業承継・M&A補助金](../instructions/subsidy/other-subsidies/shoukei.instructions.md)
 
 ## Workflow
 

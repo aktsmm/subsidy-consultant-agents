@@ -61,8 +61,10 @@ tools: ["readFile", "textSearch", "todos"]
 
 ## References
 
+- [締切データベース](../../data/deadlines.yaml) - **全補助金の締切マスターデータ**
 - [IT導入補助金 スケジュール](../instructions/subsidy/it-hojo/schedule.instructions.md)
 - [必要書類チェックリスト](../instructions/subsidy/consulting/documents-checklist.instructions.md)
+- [顧客案件フォルダ](../../clients/) - 顧客ごとの申請進捗を管理
 
 ## Workflow
 
@@ -76,14 +78,14 @@ tools: ["readFile", "textSearch", "todos"]
 
 ## Retry Policy
 
-- スケジュール情報が見つからない場合: web-researcher に調査を委譲
+- スケジュール情報が見つからない場合: Orchestrator（subsidy-consultant）に差し戻し、web-researcher への調査を依頼
 - 3回連続で情報が取得できない場合: ユーザーに公式サイトの確認を促す
 - ToDo更新に失敗した場合: ログに記録し、次回実行時に再試行
 
 ## Error Handling
 
 - 締切が過ぎている場合は、次回締切を提案する
-- スケジュールが不明確な場合は、web-researcherに調査を依頼する
+- スケジュールが不明確な場合は、Orchestrator（subsidy-consultant）に差し戻し、web-researcher への調査を依頼する
 - 準備期間が短すぎる場合は、リスクを明示する
 
 ## Idempotency

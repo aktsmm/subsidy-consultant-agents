@@ -35,7 +35,7 @@ Focus on final results, not intermediate attempts or failures.
 ## Output Path
 
 ```
-/output_sessions/YYYY-MM-DD_{session-name}.md
+/output_sessions_2/YYYY-MM-DD_{session-name}.md
 ```
 
 ## Output Format Example
@@ -81,7 +81,7 @@ Focus on final results, not intermediate attempts or failures.
 
 ## Steps
 
-1. Check `/output_sessions/` directory (create if not exists)
+1. Check `/output_sessions_2/` directory (create if not exists)
 2. If same-named file exists, read and enter append mode
 3. Extract outcomes, learnings, and links from conversation
 4. Output file
@@ -90,7 +90,7 @@ Focus on final results, not intermediate attempts or failures.
 
 Export is complete when:
 
-- [ ] Output file created/updated in `/output_sessions/`
+- [ ] Output file created/updated in `/output_sessions_2/`
 - [ ] All significant outcomes documented
 - [ ] Learnings extracted with context
 - [ ] Next steps identified (if any)

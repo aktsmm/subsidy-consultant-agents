@@ -1,0 +1,148 @@
+# 補助金締切データベース
+# schedule-tracker エージェントが参照するマスターデータ
+#
+# 使い方:
+#   - 新しい締切情報が公開されたら追記
+#   - status: open | closed | upcoming
+#   - notification_days: 締切何日前にアラートするか
+
+deadlines:
+  # ===================================
+  # IT導入補助金（デジタル化・AI導入補助金）2026
+  # ===================================
+  - id: it-2026-registration
+    name: IT導入補助金2026 IT導入支援事業者登録申請開始
+    subsidy: IT導入補助金
+    year: 2026
+    type: registration
+    date: 2026-03-30
+    time: "10:00"
+    status: upcoming
+    notification_days: 14
+    notes: IT導入支援事業者・ITツール登録申請開始
+
+  - id: it-2026-application-start
+    name: IT導入補助金2026 交付申請受付開始
+    subsidy: IT導入補助金
+    year: 2026
+    type: application_start
+    date: 2026-03-30
+    time: "10:00"
+    status: upcoming
+    notification_days: 7
+    notes: 公募要領は3月下旬公開予定
+
+  - id: it-2026-round1
+    name: IT導入補助金2026 1次締切
+    subsidy: IT導入補助金
+    year: 2026
+    type: application_deadline
+    date: 2026-04-21  # 2025年度実績ベースの予想
+    time: "17:00"
+    status: upcoming
+    notification_days: 30
+    notes: |
+      対象枠: 通常枠、インボイス枠、セキュリティ対策推進枠
+      ※日程は公募要領公開後に確定
+
+  - id: it-2026-round2
+    name: IT導入補助金2026 2次締切
+    subsidy: IT導入補助金
+    year: 2026
+    type: application_deadline
+    date: 2026-05-21  # 予想
+    time: "17:00"
+    status: upcoming
+    notification_days: 30
+    notes: 予想日程（約1ヶ月間隔）
+
+  # ===================================
+  # 小規模事業者持続化補助金 2026
+  # ===================================
+  - id: shokibo-2026-round1
+    name: 小規模事業者持続化補助金 第1回締切
+    subsidy: 小規模事業者持続化補助金
+    year: 2026
+    type: application_deadline
+    date: 2026-03-14  # 予想
+    time: "17:00"
+    status: upcoming
+    notification_days: 45
+    notes: |
+      商工会議所地区・商工会地区で異なる場合あり
+      ※日程は公募要領で確認
+
+  # ===================================
+  # ものづくり補助金 2026
+  # ===================================
+  - id: mono-2026-round1
+    name: ものづくり補助金 第19次締切
+    subsidy: ものづくり補助金
+    year: 2026
+    type: application_deadline
+    date: 2026-03-01  # 予想
+    time: "17:00"
+    status: upcoming
+    notification_days: 60
+    notes: |
+      省力化（オーダーメイド）枠、製品・サービス高付加価値化枠など
+      ※例年2〜3ヶ月間隔で公募
+
+  # ===================================
+  # 事業承継・M&A補助金 2026
+  # ===================================
+  - id: ma-2026-round1
+    name: 事業承継・M&A補助金 第1回締切
+    subsidy: 事業承継・M&A補助金
+    year: 2026
+    type: application_deadline
+    date: 2026-04-15  # 予想
+    time: "17:00"
+    status: upcoming
+    notification_days: 45
+    notes: 事業承継枠、M&A枠
+
+  # ===================================
+  # 省力化投資補助金 2026
+  # ===================================
+  - id: shoryo-2026-round1
+    name: 省力化投資補助金 第1回締切
+    subsidy: 省力化投資補助金
+    year: 2026
+    type: application_deadline
+    date: 2026-04-01  # 予想
+    time: "17:00"
+    status: upcoming
+    notification_days: 30
+    notes: カタログ型（即効性）補助金
+
+# ===================================
+# 定期チェックリマインダー
+# ===================================
+reminders:
+  - id: weekly-check
+    name: 週次: 公式サイト更新確認
+    frequency: weekly
+    day_of_week: monday
+    tasks:
+      - IT導入補助金公式サイト更新確認
+      - ミラサポplus新着情報確認
+      - J-Net21新着補助金確認
+
+  - id: monthly-check
+    name: 月次: クライアント進捗確認
+    frequency: monthly
+    day_of_month: 1
+    tasks:
+      - 申請中案件の進捗確認
+      - 効果報告期限確認
+      - 新規補助金情報のまとめ
+
+# ===================================
+# ステータス定義
+# ===================================
+# status:
+#   open     - 申請受付中
+#   upcoming - まもなく開始/未開始
+#   closed   - 締切済み
+#   canceled - 中止

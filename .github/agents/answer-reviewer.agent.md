@@ -1,6 +1,7 @@
 ---
 name: answer-reviewer
 description: 記録された回答Markdownの品質チェックを行い、自動承認する
+model: claude-sonnet-4-20250514
 tools: ["readFile", "editFiles"]
 ---
 
@@ -61,6 +62,10 @@ tools: ["readFile", "editFiles"]
 
 - **PASS（自動承認）**: 必須項目がすべてOK
 - **FAIL（差し戻し）**: 必須項目に1つ以上NG
+
+## References
+
+- [回答品質チェックリスト](../../docs/10_コンサル業務/回答品質チェックリスト.md) - **評価基準・スコアリング詳細**
 
 ## Workflow
 

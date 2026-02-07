@@ -66,6 +66,8 @@ applyTo: "**/consulting/**"
 
 ### 対象者診断フロー
 
+> **SSOT**: 対象者診断の詳細な判定基準（中小企業の定義・小規模事業者の定義・みなし大企業チェック）は [eligibility.instructions.md](../it-hojo/eligibility.instructions.md) を参照してください。以下は簡易フローです。
+
 ```
 
 1. 業種の確認

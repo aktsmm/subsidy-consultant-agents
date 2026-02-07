@@ -29,6 +29,10 @@ node_modules/
 *.log
 logs/
 
+# Client data (個人情報保護)
+# 顧客情報を含むため、必要に応じてコメント解除
+# clients/
+
 # OS generated
 .DS_Store
 Thumbs.db

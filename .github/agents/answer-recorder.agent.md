@@ -1,6 +1,7 @@
 ---
 name: answer-recorder
 description: 補助金コンサルの回答を /Answer フォルダにMarkdown形式で自動記録する
+model: claude-sonnet-4-20250514
 tools: ["editFiles", "readFile", "createFile"]
 handoffs:
   - label: レビュー依頼
@@ -87,6 +88,9 @@ topic: { topic }
 status: draft
 agent: { agent_name }
 customer: { customer_name or "N/A" }
+subsidy: { 補助金名（例: IT導入補助金, ものづくり補助金） }
+industry: { 業種（例: 製造業, IT業） }
+tags: [{ 関連キーワード（例: 対象者診断, インボイス枠, 小規模事業者） }]
 ---
 
 ## 質問
@@ -101,7 +105,9 @@ customer: { customer_name or "N/A" }
 
 - **回答エージェント**: {agent_name}
 - **補助金種別**: {subsidy_type or "N/A"}
+- **業種**: {industry or "N/A"}
 - **記録日時**: {datetime}
+- **関連回答**: {過去の関連回答ファイルパスがあれば記載}
 
 ---
 

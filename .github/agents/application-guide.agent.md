@@ -63,7 +63,11 @@ tools: ["readFile", "textSearch"]
 ## References
 
 - [IT導入補助金 スケジュール](../instructions/subsidy/it-hojo/schedule.instructions.md)
-- [IT導入補助金 採択率データ](../instructions/subsidy/it-hojo/adoption-rate.instructions.md)
+- [IT導入補助金 申請枠と類型](../instructions/subsidy/it-hojo/application-types.instructions.md)
+- [ものづくり補助金](../instructions/subsidy/other-subsidies/monodukuri.instructions.md)
+- [小規模事業者持続化補助金](../instructions/subsidy/other-subsidies/jizokuka.instructions.md)
+- [省力化投資補助金](../instructions/subsidy/other-subsidies/shoryokuka.instructions.md)
+- [事業承継・M&A補助金](../instructions/subsidy/other-subsidies/shoukei.instructions.md)
 - [必要書類チェックリスト](../instructions/subsidy/consulting/documents-checklist.instructions.md)
 - [顧客対応フロー](../instructions/subsidy/consulting/customer-flow.instructions.md)
 
@@ -78,6 +82,8 @@ tools: ["readFile", "textSearch"]
 > **Note**: 申請フローの詳細は [schedule.instructions.md](../instructions/subsidy/it-hojo/schedule.instructions.md) を参照してください。
 
 ### 絶対NG事項
+
+> **SSOT**: 詳細は [\_overview.instructions.md](../instructions/subsidy/_overview.instructions.md) の「絶対NG事項」セクションを参照
 
 - ❌ 交付決定前の契約・発注
 - ❌ gBizIDの共有・代理申請

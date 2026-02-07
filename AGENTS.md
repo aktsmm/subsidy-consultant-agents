@@ -62,3 +62,44 @@ The following skills are available in this workspace.
 @eligibility-checker 製造業・従業員50人で対象になりますか？
 @subsidy-selector 会計ソフト導入に使える補助金は？
 ```
+
+---
+
+## Data & Resources
+
+### 締切データベース
+
+[data/deadlines.yaml](data/deadlines.yaml) で全補助金の締切を一元管理しています。
+
+```yaml
+# 構造
+deadlines:
+  - id: it-2026-round1
+    name: IT導入補助金2026 1次締切
+    subsidy: IT導入補助金
+    date: 2026-04-21
+    status: upcoming # open | upcoming | closed
+    notification_days: 30
+```
+
+`schedule-tracker` エージェントがこのデータを参照してリマインドを行います。
+
+### 顧客・案件管理
+
+[clients/](clients/) フォルダで顧客情報と申請案件を管理します。
+
+```
+clients/
+├── _template/           # テンプレート
+│   ├── profile.md       # 顧客プロファイル
+│   └── consultation.md  # 相談記録
+└── {会社名}/
+    ├── profile.md
+    ├── consultations/
+    └── applications/
+```
+
+### 品質管理
+
+- [回答品質チェックリスト](docs/10_コンサル業務/回答品質チェックリスト.md) - `answer-reviewer` の評価基準
+- [必要書類チェックリスト](docs/10_コンサル業務/必要書類チェックリスト.md) - 申請時の書類確認

@@ -107,7 +107,9 @@ applyTo: "**/other-subsidies/**"
 | 項目 | 内容 |
 |------|------|
 | 電話 | 050-3821-7013 |
+| メール | kakunin@monohojo.info |
 | 受付時間 | 10:00〜17:00（土日祝日除く） |
+| ソース | [ものづくり補助金総合サイト](https://portal.monodukuri-hojo.jp/) |
 
 ---
 
