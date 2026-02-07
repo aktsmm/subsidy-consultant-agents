@@ -4,6 +4,9 @@
 # Session outputs (一時的な出力)
 output_sessions*/
 
+# Research (ローカル調査メモ)
+research/
+
 # npm cache
 .npm-cache/
 

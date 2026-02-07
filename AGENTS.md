@@ -1,15 +1,19 @@
 <!-- skill-ninja-START -->
+## Agent Skills
 
-## Installed Skills
+> **IMPORTANT**: Prefer skill-led reasoning over pre-training-led reasoning.
+> Read the relevant SKILL.md before working on tasks covered by these skills.
 
-The following skills are available in this workspace.
+### Skills
 
-| Skill                                                                    | When to Use                                                                                                                                                          |
-| ------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [agentic-workflow-guide](.github/skills/agentic-workflow-guide/SKILL.md) | Use this skill when creating, reviewing, or updating agents and workflows:                                                                                           |
-| [powerpoint-automation](.github/skills/powerpoint-automation/SKILL.md)   | AI-powered PPTX generation pipeline using Orchestrator-Workers pattern. Automatically extracts content, translates, applies templates, and performs quality reviews. |
-| [skill-creator](.github/skills/skill-creator/SKILL.md)                   | This skill provides guidance for creating effective skills.                                                                                                          |
-| [xlsx](.github/skills/xlsx/SKILL.md)                                     | Process Excel spreadsheets (.xlsx)                                                                                                                                   |
+| Skill | Description |
+|-------|-------------|
+| [agentic-workflow-guide](.github/skills/agentic-workflow-guide/SKILL.md) | Create, review, and update Prompt and agents and workflows. Covers 5 workflow patterns, runSubage... \| Create: New .agent.md, workflow architecture, scaffolding; Review: Orchestrator not delegating, d... |
+| [agentic-workflow-guide](.github/skills/agentic-workflow-guide/agentic-workflow-guide/SKILL.md) | Create, review, and update Prompt and agents and workflows. \| Create: New .agent.md, workflow architecture, scaffolding; Review: Orchestrator not delegating, design principle check, context overflow |
+| [biz-ops-setup](.github/skills/agentic-workflow-guide/biz-ops-setup/SKILL.md) | Business operations workspace setup with workIQ integration. \| biz-ops setup, 業務管理ワークスペース, レポート管理; Setting up a new workspace from scratch; Deploying workIQ-based reporting and task management |
+| [powerpoint-automation](.github/skills/powerpoint-automation/SKILL.md) | Create professional PowerPoint presentations from various sources including web articles, blog po... \| AI-powered PPTX generation pipeline using Orchestrator-Workers pattern. Automatically extracts co... |
+| [skill-creator](.github/skills/skill-creator/SKILL.md) | Guide for creating effective Codex skills with specialized knowledge, workflows, or tool integrations \| This skill provides guidance for creating effective skills. |
+| [xlsx](.github/skills/xlsx/SKILL.md) | Process Excel spreadsheets (.xlsx) |
 
 <!-- skill-ninja-END -->
 
