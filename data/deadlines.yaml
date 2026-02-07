@@ -37,7 +37,7 @@ deadlines:
     subsidy: IT導入補助金
     year: 2026
     type: application_deadline
-    date: 2026-04-21  # 2025年度実績ベースの予想
+    date: 2026-04-21 # 2025年度実績ベースの予想
     time: "17:00"
     status: upcoming
     notification_days: 30
@@ -50,7 +50,7 @@ deadlines:
     subsidy: IT導入補助金
     year: 2026
     type: application_deadline
-    date: 2026-05-21  # 予想
+    date: 2026-05-21 # 予想
     time: "17:00"
     status: upcoming
     notification_days: 30
@@ -64,7 +64,7 @@ deadlines:
     subsidy: 小規模事業者持続化補助金
     year: 2026
     type: application_deadline
-    date: 2026-03-14  # 予想
+    date: 2026-03-14 # 予想
     time: "17:00"
     status: upcoming
     notification_days: 45
@@ -80,7 +80,7 @@ deadlines:
     subsidy: ものづくり補助金
     year: 2026
     type: application_deadline
-    date: 2026-03-01  # 予想
+    date: 2026-03-01 # 予想
     time: "17:00"
     status: upcoming
     notification_days: 60
@@ -96,7 +96,7 @@ deadlines:
     subsidy: 事業承継・M&A補助金
     year: 2026
     type: application_deadline
-    date: 2026-04-15  # 予想
+    date: 2026-04-15 # 予想
     time: "17:00"
     status: upcoming
     notification_days: 45
@@ -110,7 +110,7 @@ deadlines:
     subsidy: 省力化投資補助金
     year: 2026
     type: application_deadline
-    date: 2026-04-01  # 予想
+    date: 2026-04-01 # 予想
     time: "17:00"
     status: upcoming
     notification_days: 30
@@ -121,7 +121,7 @@ deadlines:
 # ===================================
 reminders:
   - id: weekly-check
-    name: 週次: 公式サイト更新確認
+    name: "週次: 公式サイト更新確認"
     frequency: weekly
     day_of_week: monday
     tasks:
@@ -130,7 +130,7 @@ reminders:
       - J-Net21新着補助金確認
 
   - id: monthly-check
-    name: 月次: クライアント進捗確認
+    name: "月次: クライアント進捗確認"
     frequency: monthly
     day_of_month: 1
     tasks:
