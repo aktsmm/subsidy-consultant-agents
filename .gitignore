@@ -50,3 +50,8 @@ Desktop.ini
 *.tmp
 *.temp
 ~$*
+
+# Copilot agent artifacts (keep local in public repos)
+/research/
+/.github/skills/
+/output_sessions/
