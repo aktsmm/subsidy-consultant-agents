@@ -1,81 +1,72 @@
-Copyright (c) 2026 All Rights Reserved
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
 
-================================================================================
-PROPRIETARY LICENSE / プロプライエタリライセンス
-================================================================================
+Copyright (c) 2026 yamapan (@aktsmm)
 
-[English]
+You are free to:
 
-This software and associated documentation files (the "Software") are the
-exclusive property of the copyright holder. All rights are reserved.
+  Share — copy and redistribute the material in any medium or format
+  Adapt — remix, transform, and build upon the material
 
-RESTRICTIONS:
+Under the following terms:
 
-1. NO PERMISSION is granted to use, copy, modify, merge, publish, distribute,
-   sublicense, and/or sell copies of the Software.
+  Attribution — You must give appropriate credit, provide a link to the
+  license, and indicate if changes were made. You may do so in any reasonable
+  manner, but not in any way that suggests the licensor endorses you or your
+  use.
 
-2. NO PERMISSION is granted to permit persons to whom the Software is furnished
-   to do so.
+  NonCommercial — You may not use the material for commercial purposes.
 
-3. The Software may NOT be used for any commercial or non-commercial purposes
-   without explicit written permission from the copyright holder.
+  ShareAlike — If you remix, transform, or build upon the material, you must
+  distribute your contributions under the same license as the original.
 
-4. Reverse engineering, decompilation, or disassembly of the Software is
-   strictly prohibited.
+  No additional restrictions — You may not apply legal terms or technological
+  measures that legally restrict others from doing anything the license permits.
 
-5. The Software may NOT be redistributed in any form, whether modified or
-   unmodified.
+Notices:
 
-6. Any attempt to circumvent these restrictions will be considered a violation
-   of this license.
+  You do not have to comply with the license for elements of the material in
+  the public domain or where your use is permitted by an applicable exception
+  or limitation.
 
-DISCLAIMER:
+  No warranties are given. The license may not give you all of the permissions
+  necessary for your intended use. For example, other rights such as publicity,
+  privacy, or moral rights may limit how you use the material.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+For the full license text, see:
+https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
 
----
+-------------------------------------------------------------------------------
 
-[日本語]
+Supplementary Terms
 
-本ソフトウェアおよび関連ドキュメント（以下「本ソフトウェア」）は、
-著作権者の独占的財産です。すべての権利は留保されています。
+The following supplementary terms apply in addition to the CC BY-NC-SA 4.0
+license above. These terms are set by the copyright holder and apply to all
+files in this repository unless otherwise noted.
 
-制限事項：
+1. Microsoft Employee Exception
 
-1. 本ソフトウェアの使用、複製、改変、マージ、公開、配布、サブライセンス、
-   および/または販売する許可は一切付与されません。
+   Employees of Microsoft Corporation are granted permission to use, modify,
+   and distribute the contents of this repository for internal and commercial
+   purposes within the scope of their employment at Microsoft, provided that
+   appropriate attribution is given.
 
-2. 本ソフトウェアを提供された者に対して、上記を許可する権限は
-   一切付与されません。
+2. Prohibition of AI/ML Training Use
 
-3. 著作権者からの明示的な書面による許可なく、商用・非商用を問わず
-   本ソフトウェアを使用することはできません。
+   The contents of this repository shall NOT be used, in whole or in part, as
+   training data, fine-tuning data, or evaluation data for any artificial
+   intelligence (AI) or machine learning (ML) model, including but not limited
+   to large language models (LLMs), without explicit written permission from
+   the copyright holder.
 
-4. 本ソフトウェアのリバースエンジニアリング、逆コンパイル、
-   逆アセンブルは固く禁じられています。
+3. Prohibition of Collection/Aggregation Redistribution
 
-5. 本ソフトウェアは、改変の有無にかかわらず、いかなる形式でも
-   再配布することはできません。
+   The contents of this repository shall NOT be included, in whole or in part,
+   in any collection, aggregation, compilation, or "awesome list" repository
+   for the purpose of redistribution or public re-hosting. Linking to this
+   repository (via URL) is permitted and encouraged.
 
-6. これらの制限を回避しようとする行為は、本ライセンスの違反と
-   みなされます。
+4. Attribution Format
 
-免責事項：
+   When providing attribution, please use the following format:
 
-本ソフトウェアは「現状のまま」で提供され、商品性、特定目的への適合性、
-および非侵害性の保証を含むがこれに限定されない、明示的または黙示的な
-いかなる種類の保証もありません。著作者または著作権者は、契約行為、
-不法行為、またはその他の行為であるかを問わず、本ソフトウェアまたは
-本ソフトウェアの使用もしくはその他の取引に起因または関連して生じる
-請求、損害、その他の責任について一切責任を負いません。
-
----
-
-ライセンスに関するお問い合わせは、著作権者までご連絡ください。
-For licensing inquiries, please contact the copyright holder.
+   yamapan (@aktsmm) - https://github.com/aktsmm
